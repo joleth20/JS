@@ -4,23 +4,38 @@
 
 // Variables 
 
-// var ayuson = 10
-// let y = "letshkie"
-// const joleth = 30
+var ayuson = 10
+let y = "letshkie"
+const joleth = 30
 
 // Objects
 
-// const obj = {
-//     name: "joleth",
-//     age: 23
-// }
+const obj = {
+    name: "joleth", 
+    age: 23
+}
 
 // Arrays
 
-// const sampleArray = ['a', 'b', 'c','d']
+const sampleArray = ['a', 'b', 'c','d']
 
 
 console.log()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 window.addEventListener('DOMContentLoaded', () => {
