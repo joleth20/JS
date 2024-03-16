@@ -35,13 +35,34 @@ window.addEventListener('DOMContentLoaded', () => {
            menu.classList.remove('hide')
            menu.classList.add('show')
 
+           document.body.style.overflow = "hidden"
+
         }else{
             hamburger.classList.add('bars')
             hamburger.classList.remove('close')
 
            menu.classList.add('hide')
            menu.classList.remove('show')
+
+           document.body.style.overflow = "auto"
         }
     })
 
+    window.addEventListener('resize', () => {
+        if(window.innerWidth > 400){
+           if(menu.className.includes('show')){
+             menu.classList.remove('show')
+             menu.classList.add('hide')
+
+             hamburger.classList.remove('close')
+             hamburger.classList.add('bars')
+
+             document.body.style.overflow = "auto"
+           }
+        }
+     
+     })
+
 })
+
+
