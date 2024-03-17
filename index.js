@@ -39,6 +39,26 @@ window.addEventListener('DOMContentLoaded', () => {
 //     return `${name} is running!`
 // }
 
+// Loops
+
+// for (let i = 0; i < 10; i++){
+//    console.log("i: ", i)
+// }
+
+// Conditions
+
+// const joleth = 'joleth'
+
+// if(typeof joleth === ""){
+//     console.log('yes')
+// }else{
+//     console.log('no')
+// }
+
+// DOM Manipulations
+
+
+
 
 
 

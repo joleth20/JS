@@ -102,15 +102,20 @@ font-family: var(--primary-fnt-fmly);
 
 
 @media (max-width:375px){
+
+    .main header h1 {
+        font-size: 25px;
+    }
+
+
     .main header nav ul {
         flex-direction: column;
         align-items: center;
         row-gap: 30px;
         position: fixed;
         left: 0px;
-        top: 90px;
+        top: 100px;
         width: 100%;
-
     }
 
     .main header nav .menus.hide{
@@ -123,7 +128,12 @@ font-family: var(--primary-fnt-fmly);
         transform-origin: top;
     }
 
+    .main header nav ul li a::after{
+        all: unset;
+    }
+
     .main header .hamburger >div{
         display: block;
+        width: 32px;
     }
 }
