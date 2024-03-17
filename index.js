@@ -1,31 +1,43 @@
-// Console
+window.addEventListener('DOMContentLoaded', () => {
+//  Basic Fundamentals of Javascript
 
+// Console
 // console.log("joleth ayuson")
 
 // Variables 
-
-var ayuson = 10
-let y = "letshkie"
-const joleth = 30
+// var ayuson = 10
+// let y = "letshkie"
+// const joleth = 30
 
 // Objects
-
-const obj = {
-    name: "joleth", 
-    age: 23
-}
+// const obj = {
+//     name: "joleth", 
+//     age: 23
+// }
 
 // Arrays
+// const sampleArray = ['a', 'b', 'c','d']
 
-const sampleArray = ['a', 'b', 'c','d']
-
-
-console.log()
-
-
-
+// MODIFIED ARRAY FUNCTIONS
+// - sampleArray.unshift('joleth') - added on the front of array
+// - sampleArray.pop() - removed on the back of array
+// - sampleArray.push('joleth') - added on the back of array
 
 
+// Functions
+//   3 ways to make function in js
+
+// function run(name){
+//     return `${name} is running!`
+// }
+
+// const run2 = function(name) {
+//     return `${name} is running`
+// }
+
+// const run3 = (name) => {
+//     return `${name} is running!`
+// }
 
 
 
@@ -38,7 +50,16 @@ console.log()
 
 
 
-window.addEventListener('DOMContentLoaded', () => {
+
+
+
+
+
+
+
+
+
+
     const hamburger = document.querySelector('.hamburger')
     const menu = document.querySelector('.menus')
 
